@@ -20,6 +20,9 @@ inputs:
   gcp_profiles:
     description: "List of GCP profile names and keys"
     required: false
+  action_ref:
+    description: "Ref of the current action - used to get the correct exe version"
+    required: true
 runs:
   using: "composite"
   steps:
@@ -28,6 +31,7 @@ runs:
       with:
         repository: iSoBored/action_terraformx_apply
         path: action_terraformx_apply
+        ref: ${{ inputs.action_ref }}
         
     - name: Export Terraform Environmental Variables
       run: |
