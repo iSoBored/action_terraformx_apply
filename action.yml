@@ -26,7 +26,7 @@ runs:
     - name: Checkout jlieow/action_terraformx_apply repo to store files from custom action
       uses: actions/checkout@v3
       with:
-        repository: jlieow/action_terraformx_apply
+        repository: iSoBored/action_terraformx_apply
         path: action_terraformx_apply
         
     - name: Export Terraform Environmental Variables
