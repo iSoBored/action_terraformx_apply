@@ -39,7 +39,7 @@ gcp_profiles: |
 We can set the variables as an environmental variable for Terraform
 
 ```
-TF_VAR_path_to_sa_1=path_to_key_file_dir/sa1_profile_name.json
+TF_VAR_path_to_sa1=path_to_key_file_dir/sa1_profile_name.json
 ```
 
 ## Multiple Accounts with GCP
@@ -127,6 +127,6 @@ Setting both variables to their own key path through .env for local deployment
 config/.env
 
 ```
-TF_VAR_path_to_sa_1=path_to_key_file_dir/sa1_profile_name.json
-TF_VAR_path_to_sa_2=path_to_key_file_dir/sa2_profile_name.json
+TF_VAR_path_to_sa1=path_to_key_file_dir/sa1_profile_name.json
+TF_VAR_path_to_sa2=path_to_key_file_dir/sa2_profile_name.json
 ```

@@ -48,4 +48,4 @@ jobs:
             ]
 ```
 
-Read [GCP Info](GCP_INFO.md) for GCP specific instructions
+Read [GCP Info](GCP_INFO.MD) for GCP specific instructions
