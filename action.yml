@@ -31,7 +31,7 @@ runs:
         )
 
         echo "$terraform_env_variables" | while read line; do
-          echo $line >> $GITHUB_ENV 
+          printf $line >> $GITHUB_ENV 
         done
       shell: bash
       
