@@ -84,9 +84,9 @@ runs:
         done
       shell: bash
 
-    - name: Perform Terraformx Apply
-      working-directory: ${{ inputs.dir }}
-      run: |
-        chmod +x $GITHUB_ACTION_PATH/exe/apply
-        $GITHUB_ACTION_PATH/exe/apply
-      shell: bash
+    # - name: Perform Terraformx Apply
+    #   working-directory: ${{ inputs.dir }}
+    #   run: |
+    #     chmod +x $GITHUB_ACTION_PATH/exe/apply
+    #     $GITHUB_ACTION_PATH/exe/apply
+    #   shell: bash
